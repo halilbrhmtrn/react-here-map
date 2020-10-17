@@ -1,6 +1,6 @@
 {
-  "name": "react-here-map",
-  "version": "3.1.0-0",
+  "name": "@halilbrhmtrn/react-here-map",
+  "version": "3.1.1",
   "description": "React components for working with Here Maps API",
   "main": "./dist/index.js",
   "files": [
@@ -35,12 +35,12 @@
     "here map",
     "map"
   ],
-  "author": "Aleem Isiaka",
+  "author": "Halil İbrahim Turan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/limistah/react-here-map/issues"
+    "url": "https://github.com/halilbrhmtrn/react-here-map/issues"
   },
-  "homepage": "https://github.com/limistah/react-here-map#readme",
+  "homepage": "https://github.com/halilbrhmtrn/react-here-map#readme",
   "dependencies": {
     "@limistah/here-map-js": "^3.1.0",
     "attr-accept": "^1.1.3",

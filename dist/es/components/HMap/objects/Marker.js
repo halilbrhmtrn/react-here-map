@@ -24,7 +24,7 @@ function Marker(props) {
       ui = _merge.ui,
       __options = _merge.__options;
 
-  var _options = options;
+  var _options = options || {};
 
   if (!H || !H.map || !map) {
     throw new Error("HMap has to be initialized before adding Map Objects");
@@ -74,7 +74,7 @@ function Marker(props) {
 
   setViewBounds ? map.setCenter(coords) : null; // There is no need to render something useful here, HereMap does that magically
 
-  return React.createElement("div", {
+  return /*#__PURE__*/React.createElement("div", {
     style: {
       display: "none"
     }

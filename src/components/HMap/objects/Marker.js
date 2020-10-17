@@ -22,7 +22,7 @@ function Marker(props) {
     { setViewBounds: true, updateMarker: false, marker: null, getMarker() {} },
     props
   );
-  let _options = options;
+  let _options = options || {};
   if (!H || !H.map || !map) {
     throw new Error("HMap has to be initialized before adding Map Objects");
   }
